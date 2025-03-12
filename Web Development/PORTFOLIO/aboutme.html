@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(76, 31, 118);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80;
+            background-color: rgb(133, 22, 133);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(110, 110, 125);
+            font-size: 1rem;
+        }
+
+        .left {
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+            color: rgb(191, 58, 173);
+            ;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -45px;
+            left: -15px;
+        }
+
+        .text-color {
+            color: blueviolet;
+        }
+
+        .vertical-text {
+            color: rgb(191, 58, 173);
+            font-weight: bold;
+            font-size: 1.1rem;
+            position: relative;
+            top: 50px;
+            left: -40px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 60px;
+            left: -40px;
+            font-size: 10px;
+            width: 150px;
+        }
+
+        .footer-section {
+            height: 250px;
+            background-color: rgb(191, 58, 173);
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            justify-content: center;
+            display: flex;
+            margin: 10px;
+        }
+
+        .footer-first {
+            width: 300px;
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 110px 70px;
+        }
+
+        .footer-second {
+            width: 600px;
+            margin: 50px;
+        }
+
+        .footer-second ul li {
+            list-style: none;
+            margin: 30px 30px 0px 30px;
+
+        }
+
+        .footer-second ul li a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+
+        .logo-img {
+            position: relative;
+            display: flex;
+            position: relative;
+            align-items: center;
+            align-content: space-between;
+            left: 90px;
+
+        }
+
+        .logo {
+            margin: 20px;
+            width: 45px;
+            margin-left: 20px;
+        }
+
+        .copyright {
+            height: 50px;
+            background-color: rgb(133, 22, 133);
+            text-align: center;
+        }
+        .about{
+            font-size:17px;
+            text-align: left;
+        }
+        .about p{
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sakshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="profiles.html">Profiles</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="secondsection">
+        <span class="text-color">What i want to do</span>
+        <h1>About Me</h1>
+        <div class="about">
+            <p>
+                Hello everyone! My name is Sakshi, and I am currently pursuing my Bachelor's degree in Computer Science.
+                I am passionate about becoming a Full Stack Java Developer. My interest in Java programming began in my
+                second year, and ever since, I’ve enjoyed coding a variety of projects that showcase the power and
+                versatility of this language. I particularly appreciate Java’s rich library and its ability to create
+                scalable, efficient applications.
+                <br><br>
+                I have worked on several projects, including a chatting application and a Tic-Tac-Toe game using AWT and
+                Swing technologies. These projects have helped me strengthen my understanding of core Java concepts and
+                have given me practical experience in building user interfaces and handling real-time data interactions.
+                <br><br>
+                In addition to Java, I am eager to explore and work with a range of other technologies. I am proficient
+                in Python, C, PHP, HTML, CSS, JavaScript, Django, and data structures. I’m particularly interested in
+                how different programming languages and frameworks can be integrated to build full-stack applications
+                that are efficient and user-friendly.
+                <br><br>
+                I am always keen to enhance my problem-solving abilities and explore new fields of technology. My goal
+                is to contribute to the tech community by developing high-quality software solutions, whether in backend
+                systems, frontend development, or even mobile apps. I enjoy learning and working on diverse tech
+                projects, and I am excited about the opportunity to grow as a developer in the ever-evolving world of
+                technology.
+
+            </p>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-first">
+            <h3>Sakshi's portfolio's website</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+            </ul>
+            <div class="logo-img">
+                <a href="https://www.instagram.com/sakshikale854/"><img class="logo" src="images/instagram.png"
+                        alt="insta-logo"></a>
+                <a href="https://www.linkedin.com/in/sakshikale307"><img class="logo" src="images/linkedin.png"
+                        alt="linkedin-logo"></a>
+                <a href="mailto:sakshikale307@gmail.com"><img class="logo" src="images/gmail.png" alt="email-logo"></a>
+                <a href="https://github.com/codedeveloper2004"><img class="logo" src="images/github.png"
+                        alt="github-logo"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>CopyRight © 2025 Designed By Sakshi Kale</p>
+    </div>
+</body>
+
+</html>
